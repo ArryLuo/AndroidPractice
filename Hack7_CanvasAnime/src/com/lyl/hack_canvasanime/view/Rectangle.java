@@ -29,6 +29,7 @@ public class Rectangle extends View {
 	private boolean goRight = true;
 	private boolean goDown = true;
 
+	/** 用来装小球的View，用到了他的宽高，防止圆球滚出控件 **/
 	private DrawView mDrawView;
 
 	private Paint mInnerPaint;
@@ -82,6 +83,7 @@ public class Rectangle extends View {
 		float toX = mCoordX + mRealSize;
 		float toY = mCoordY + mRealSize;
 
+		// 绘制圆形图案
 		canvas.drawCircle(toX, toY, mRealSize, mInnerPaint);
 	}
 
@@ -105,6 +107,9 @@ public class Rectangle extends View {
 		return mCoordY;
 	}
 
+	/**
+	 * 在外部调用此方法即向指定位置移动
+	 */
 	public void move() {
 		moveTo(mSpeedX, mSpeedY);
 	}
