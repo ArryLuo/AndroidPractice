@@ -8,4 +8,8 @@
 
 3. Hack10_CustomizeText （下图）：一个TextView，多种格式，Toast位置修改
 ![Hack10_CustomizeText](https://github.com/Wing-Li/PracticeDemos/blob/master/Hack10_CustomizeText/art.png)
+
+4. Hack26_SectionListView （下图）：用一种比较笨的但是很简单的方式实现列表副标题
+   如果想了解高端一点的方式，推荐去看看这个：[StickyHeaders](https://github.com/ShamylZakariya/StickyHeaders)
+![Hack10_CustomizeText](https://github.com/Wing-Li/PracticeDemos/blob/master/Hack26_SectionListView/SectionList.gif)
    
