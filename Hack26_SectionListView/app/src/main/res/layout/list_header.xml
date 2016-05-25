@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<TextView android:id="@+id/header"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:background="#BBBBBB"
+          android:gravity="center_vertical|start"
+          android:paddingStart="10dp"
+          android:textColor="#444444"
+          android:textSize="18sp"/>
