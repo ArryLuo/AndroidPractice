@@ -1,5 +1,5 @@
 # PracticeDemos
-这个是一个平时学习的集合，Hack都是根据《50 Android Hack》书上编辑的。
+记录平时练习做的一些Demo，Hack都是根据《50 Android Hack》书上编辑的。
 
 ##### 1. Hack3_ViewGroup 介绍：[最基础的自定义ViewGroup][Hack3_ViewGroup]
  
@@ -18,9 +18,6 @@
 ##### 5. ItemDragDemo : 使用 ItemTouchHelper 和RecyclerView实现 列表的拖动 和 侧滑删除
 
 ![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/ItemDragDemo/itemdrag.gif)
-
-
-
 
 
 
