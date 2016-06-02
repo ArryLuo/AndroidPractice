@@ -19,7 +19,7 @@
 
 ![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/ItemDragDemo/itemdrag.gif)
 
-
+##### 6. DiyViewPager: 参考 [巧用ViewPager 打造不一样的广告轮播切换效果][DiyViewPager]
 
 
 
@@ -30,3 +30,4 @@
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
 [Hack10_CustomizeText]:http://www.jianshu.com/p/3a6a3d2fb340
+[DiyViewPager]:http://blog.csdn.net/lmj623565791/article/details/51339751
