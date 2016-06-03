@@ -27,4 +27,20 @@
 
     </FrameLayout>
 
+    <!--
+    Android 5.1的SDK把Button的默认Style改了，样式默认把textAllCaps设置为true了.
+    Button 的默认字母是大写的。
+    Android:textAllCaps="false" 大写设置改为 false
+    -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:onClick="change"
+        android:text="Change"
+        android:textAllCaps="false"
+        />
+
 </RelativeLayout>
