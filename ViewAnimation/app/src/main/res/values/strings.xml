@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ViewAnimation</string>
+
+    <string name="hint">点击文字和五块钱，更换文字或图片的时候，\n会有一个缓冲的切换效果，看起来不会那么的生硬。</string>
+
+</resources>
