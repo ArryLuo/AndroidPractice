@@ -21,6 +21,12 @@
 
 ##### 6. DiyViewPager: 参考 [巧用ViewPager 打造不一样的广告轮播切换效果][DiyViewPager]
 
+![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/DiyViewPager/img/DiyViewPager.gif)
+
+##### 7. ViewAnimation: 使用ViewAnimation实现 文字/图片 切换效果
+
+![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewAnimation/img/viewanimation.gif)
+
 
 
 
