@@ -1,5 +1,7 @@
 # PracticeDemos
-记录平时练习做的一些Demo，Hack都是根据《50 Android Hack》书上编辑的。
+记录平时练习做的一些Demo。<br />
+**宗旨：**整体以代码简洁为主，不做过多的辅助补充。<br />
+**目的：**为了方便看代码的人更直观的看到核心功能。
 
 ##### 1. Hack3_ViewGroup 介绍：[最基础的自定义ViewGroup][Hack3_ViewGroup]
  
