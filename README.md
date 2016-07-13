@@ -13,7 +13,7 @@
 
 ##### 4. Hack26_SectionListView （下图）：用一种比较笨的但是很简单的方式实现列表副标题
 
-![Hack10_CustomizeText](https://github.com/Wing-Li/PracticeDemos/blob/master/Hack26_SectionListView/SectionList.gif)
+![Hack26_SectionListView](https://github.com/Wing-Li/PracticeDemos/blob/master/Hack26_SectionListView/SectionList.gif)
 
 ##### 5. ItemDragDemo : 使用 ItemTouchHelper 和RecyclerView实现 列表的拖动 和 侧滑删除
 
@@ -21,11 +21,11 @@
 
 ##### 6. DiyViewPager: 参考 [巧用ViewPager 打造不一样的广告轮播切换效果][DiyViewPager]
 
-![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/DiyViewPager/img/DiyViewPager.gif)
+![DiyViewPager](https://github.com/Wing-Li/PracticeDemos/blob/master/DiyViewPager/img/DiyViewPager.gif)
 
 ##### 7. ViewAnimation: 使用ViewAnimation实现 文字/图片 切换效果
 
-![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewAnimation/img/viewanimation.gif)
+![ViewAnimation](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewAnimation/img/viewanimation.gif)
 
 
 
