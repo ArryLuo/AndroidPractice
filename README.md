@@ -25,7 +25,7 @@
 
 ![DiyViewPager](https://github.com/Wing-Li/PracticeDemos/blob/master/DiyViewPager/img/DiyViewPager.gif)
 
-##### 7. ViewAnimation: 使用ViewAnimation实现 文字/图片 切换效果
+##### 7. ViewAnimation: [ViewFlipper探索与使用][ViewAnimation]
 
 ![ViewAnimation](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewAnimation/img/viewanimation.gif)
 
@@ -37,3 +37,4 @@
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
 [Hack10_CustomizeText]:http://www.jianshu.com/p/3a6a3d2fb340
 [DiyViewPager]:http://blog.csdn.net/lmj623565791/article/details/51339751
+[ViewAnimation]:http://www.jianshu.com/p/df24bae5e8c3
