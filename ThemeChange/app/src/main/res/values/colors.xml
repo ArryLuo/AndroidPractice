@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#58C9B9</color>
+    <color name="colorPrimaryDark">#9DC8C8</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="colorControlNormal">#D1B6E1</color>
+    <color name="colorAccent">#D1B6E1</color>
+    <color name="windowBackground">#ffffff</color>
+    <color name="Text_bg_Color">#000000</color>
+
+    <color name="NcolorPrimary">#F17F42</color>
+    <color name="NcolorPrimaryDark">#CE6D39</color>
+    <color name="NtextColorPrimary">#ffffff</color>
+    <color name="NcolorControlNormal">#CE6D39</color>
+    <color name="NcolorAccent">#CE6D39</color>
+    <color name="NwindowBackground">#FFEEE4</color>
+    <color name="NText_bg_Color">#49010F</color>
+
+
+</resources>

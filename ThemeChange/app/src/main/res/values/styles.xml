@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light"
+        >
+        <!--Toolbar的背景颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--StatusBar的颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--主标题的字体颜色-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!--控制元件的默认状态颜色-->
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        <!--控制元件在选中状态的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Activity的背景颜色-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!--自定义的属性-->
+        <item name="Text_bg_Color">@color/Text_bg_Color</item>
+    </style>
+
+    <style name="AppThemeNight" parent="Theme.AppCompat.Light"
+        >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/NcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/NcolorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/NtextColorPrimary</item>
+        <item name="android:colorControlNormal">@color/NcolorControlNormal</item>
+        <item name="colorAccent">@color/NcolorAccent</item>
+        <item name="android:windowBackground">@color/NwindowBackground</item>
+        <item name="Text_bg_Color">@color/NText_bg_Color</item>
+    </style>
+</resources>
