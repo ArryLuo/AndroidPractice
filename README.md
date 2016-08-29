@@ -37,6 +37,10 @@
 
 ![ThemeChange](https://github.com/Wing-Li/PracticeDemos/blob/master/ThemeChange/img/theme.gif)
 
+##### 10. SeamlessChangeTheme:(无缝切换主题，上面的切换方式会闪屏) SeamlessChangeTheme 练习
+
+![ThemeChange](https://github.com/Wing-Li/PracticeDemos/blob/master/SeamlessChangeTheme/img/theme.gif)
+
 
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
