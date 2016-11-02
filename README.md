@@ -41,6 +41,10 @@
 
 ![ThemeChange](https://github.com/Wing-Li/PracticeDemos/blob/master/SeamlessChangeTheme/img/theme.gif)
 
+##### 11. Drawing:[自定义View之绘制图形][Drawing]
+
+![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/Drawing/img/learn.png)
+![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/Drawing/img/pie.png)
 
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
@@ -48,3 +52,4 @@
 [Hack10_CustomizeText]:http://www.jianshu.com/p/3a6a3d2fb340
 [DiyViewPager]:http://blog.csdn.net/lmj623565791/article/details/51339751
 [ViewAnimation]:http://www.jianshu.com/p/df24bae5e8c3
+[Drawing]:http://www.gcssloop.com/customview/Canvas_BasicGraphics
