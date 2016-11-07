@@ -46,6 +46,8 @@
 ![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/Drawing/img/learn.png)
 ![ItemDragDemo](https://github.com/Wing-Li/PracticeDemos/blob/master/Drawing/img/pie.png)
 
+##### 12. ViewCanvas:[自定义View之画布操作][Drawing]
+
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
@@ -53,3 +55,4 @@
 [DiyViewPager]:http://blog.csdn.net/lmj623565791/article/details/51339751
 [ViewAnimation]:http://www.jianshu.com/p/df24bae5e8c3
 [Drawing]:http://www.gcssloop.com/customview/Canvas_BasicGraphics
+[ViewCanvas]:http://www.gcssloop.com/customview/Canvas_Convert
