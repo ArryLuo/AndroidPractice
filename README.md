@@ -48,6 +48,9 @@
 
 ##### 12. ViewCanvas:[自定义View之画布操作][Drawing]
 
+
+##### 13. ViewImageText:[自定义View之图片文字][ViewImageText]
+
 ![ViewAnimation](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewImageText/img/ViewImageText.gif)
 
 
@@ -58,3 +61,4 @@
 [ViewAnimation]:http://www.jianshu.com/p/df24bae5e8c3
 [Drawing]:http://www.gcssloop.com/customview/Canvas_BasicGraphics
 [ViewCanvas]:http://www.gcssloop.com/customview/Canvas_Convert
+[ViewImageText]:http://www.gcssloop.com/customview/Canvas_PictureText
