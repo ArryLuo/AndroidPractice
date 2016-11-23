@@ -48,6 +48,8 @@
 
 ##### 12. ViewCanvas:[自定义View之画布操作][Drawing]
 
+![ViewAnimation](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewImageText/img/ViewImageText.gif)
+
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
