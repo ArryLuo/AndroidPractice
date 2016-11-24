@@ -59,6 +59,8 @@ Path之基本操作:http://www.gcssloop.com/customview/Path_Basic
 
 Path之贝塞尔曲线:http://www.gcssloop.com/customview/Path_Bezier
 
+![ViewPath](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewPath/img/ViewPath.gif)
+
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
