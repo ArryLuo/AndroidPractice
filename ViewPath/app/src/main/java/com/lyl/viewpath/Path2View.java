@@ -23,12 +23,10 @@ public class Path2View extends View {
         super(context);
     }
 
-
     public Path2View(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
-
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
@@ -37,7 +35,6 @@ public class Path2View extends View {
         height = h;
     }
 
-
     private void init() {
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
@@ -45,7 +42,6 @@ public class Path2View extends View {
         mPaint.setStrokeWidth(10);
         mPaint.setAntiAlias(true);
     }
-
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -98,6 +94,6 @@ public class Path2View extends View {
 
         path.addPath(p);
         canvas.drawPath(path, mPaint);
-
     }
+
 }

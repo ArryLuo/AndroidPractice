@@ -29,7 +29,6 @@ public class Path1View extends View {
         init();
     }
 
-
     private void init() {
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
@@ -38,14 +37,12 @@ public class Path1View extends View {
         mPaint.setStrokeWidth(10);
     }
 
-
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         width = w;
         height = h;
     }
-
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -69,4 +66,5 @@ public class Path1View extends View {
 
         canvas.drawPath(path, mPaint);
     }
+
 }
