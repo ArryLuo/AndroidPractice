@@ -11,9 +11,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.lyl.viewpath.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toBezier"
+        android:text="贝塞尔曲线"/>
+
     <com.lyl.viewpath.Path1View
         android:layout_width="match_parent"
-        android:layout_height="250px"/>
+        android:layout_height="250px"
+        android:layout_marginTop="10dp"/>
 
     <View
         android:layout_width="match_parent"
@@ -23,5 +30,6 @@
 
     <com.lyl.viewpath.Path2View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="1000px"/>
+
 </LinearLayout>

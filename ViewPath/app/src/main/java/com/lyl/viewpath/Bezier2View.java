@@ -19,8 +19,14 @@ public class Bezier2View extends View {
     private int centerX, centerY;
 
     private Paint mPaint;
+    private Paint mTouchPaint;
 
-    private PointF start, end, contorl;
+    private PointF start, end;
+    private PointF contorl1, contorl2;
+    private int poinTyle;
+
+    public static final int POINT_ONE = 1;
+    public static final int POINT_TWO = 2;
 
     public Bezier2View(Context context) {
         super(context);
@@ -41,8 +47,10 @@ public class Bezier2View extends View {
         start.y = centerY;
         end.x = centerX + 200;
         end.y = centerY;
-        contorl.x = centerX;
-        contorl.y = centerY - 100;
+        contorl1.x = centerX - 100;
+        contorl1.y = centerY - 100;
+        contorl2.x = centerX + 100;
+        contorl2.y = centerY - 100;
     }
 
     private void init() {
@@ -51,16 +59,34 @@ public class Bezier2View extends View {
         mPaint.setStrokeWidth(8);
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setTextSize(60);
+        mPaint.setAntiAlias(true);
+
+        mTouchPaint = new Paint();
+        mTouchPaint.setColor(Color.BLACK);
+        mTouchPaint.setStrokeWidth(20);
+        mTouchPaint.setAntiAlias(true);
 
         start = new PointF(0, 0);
         end = new PointF(0, 0);
-        contorl = new PointF(0, 0);
+        contorl1 = new PointF(0, 0);
+        contorl2 = new PointF(0, 0);
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        contorl.x = event.getX();
-        contorl.y = event.getY();
+        switch (poinTyle) {
+            case POINT_ONE:
+                contorl1.x = event.getX();
+                contorl1.y = event.getY();
+                break;
+            case POINT_TWO:
+                contorl2.x = event.getX();
+                contorl2.y = event.getY();
+                break;
+            default:
+                break;
+        }
+
         invalidate();
         return true;
     }
@@ -72,14 +98,24 @@ public class Bezier2View extends View {
         // 绘制控制点
         mPaint.setColor(Color.GRAY);
         mPaint.setStrokeWidth(20);
-        canvas.drawPoint(contorl.x, contorl.y, mPaint);
         canvas.drawPoint(start.x, start.y, mPaint);
         canvas.drawPoint(end.x, end.y, mPaint);
+        switch (poinTyle) {
+            case POINT_ONE:
+                canvas.drawPoint(contorl1.x, contorl1.y, mTouchPaint);
+                canvas.drawPoint(contorl2.x, contorl2.y, mPaint);
+                break;
+            case POINT_TWO:
+                canvas.drawPoint(contorl1.x, contorl1.y, mPaint);
+                canvas.drawPoint(contorl2.x, contorl2.y, mTouchPaint);
+                break;
+        }
 
         // 绘制辅助线
         mPaint.setStrokeWidth(4);
-        canvas.drawLine(start.x, start.y, contorl.x, contorl.y, mPaint);
-        canvas.drawLine(end.x, end.y, contorl.x, contorl.y, mPaint);
+        canvas.drawLine(start.x, start.y, contorl1.x, contorl1.y, mPaint);
+        canvas.drawLine(contorl1.x, contorl1.y, contorl2.x, contorl2.y, mPaint);
+        canvas.drawLine(contorl2.x, contorl2.y, end.x, end.y, mPaint);
 
         // 绘制曲线
         mPaint.setColor(Color.RED);
@@ -87,9 +123,14 @@ public class Bezier2View extends View {
 
         Path path = new Path();
         path.moveTo(start.x, start.y);
-        path.quadTo(contorl.x, contorl.y, end.x, end.y);
+        path.cubicTo(contorl1.x, contorl1.y, contorl2.x, contorl2.y, end.x, end.y);
 
         canvas.drawPath(path, mPaint);
+    }
+
+    public void setTouchPoint(int poinTyle) {
+        this.poinTyle = poinTyle;
+        invalidate();
     }
 
 }
