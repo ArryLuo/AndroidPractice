@@ -10,7 +10,7 @@ import android.view.View;
 
 /**
  * 第1组: moveTo、 setLastPoint、 lineTo 和 close
- *
+ * <p/>
  * Wing_Li
  * 2016/11/23.
  */
@@ -63,6 +63,15 @@ public class Path1View extends View {
 
         // 连接直线
         path.close();
+
+        // 基于当前坐标系的坐标(绝对位置)
+        path.moveTo(500, 0);
+        path.lineTo(500, 150);
+
+        // rXxx方法:
+        // 基于当前点的位移(相对位置)
+        path.moveTo(600, 0);
+        path.rLineTo(100, 150);// 即 (600+100, 0+150) 这个位置
 
         canvas.drawPath(path, mPaint);
     }
