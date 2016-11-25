@@ -1,9 +1,11 @@
-package com.lyl.viewpath;
+package com.lyl.viewpath.bazier;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import com.lyl.viewpath.R;
 
 public class BezierActivity extends AppCompatActivity {
 

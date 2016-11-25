@@ -17,6 +17,12 @@
         android:onClick="toBezier"
         android:text="贝塞尔曲线"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toFigure"
+        android:text="Path完结"/>
+
     <com.lyl.viewpath.Path1View
         android:layout_width="match_parent"
         android:layout_height="250px"

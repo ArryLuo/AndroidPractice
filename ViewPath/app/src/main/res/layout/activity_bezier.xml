@@ -9,10 +9,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.lyl.viewpath.BezierActivity">
+    tools:context=".bazier.BezierActivity">
 
 
-    <com.lyl.viewpath.BezierView
+    <com.lyl.viewpath.bazier.BezierView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
@@ -23,7 +23,7 @@
         android:layout_marginBottom="10dp"
         android:background="#444444"/>
 
-    <com.lyl.viewpath.Bezier2View
+    <com.lyl.viewpath.bazier.Bezier2View
         android:id="@+id/id_bezier2"
         android:layout_width="match_parent"
         android:layout_height="0dp"

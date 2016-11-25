@@ -1,4 +1,4 @@
-package com.lyl.viewpath;
+package com.lyl.viewpath.bazier;
 
 import android.content.Context;
 import android.graphics.Canvas;
