@@ -61,6 +61,10 @@ Path之贝塞尔曲线:http://www.gcssloop.com/customview/Path_Bezier
 
 ![ViewPath](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewPath/img/ViewPath.gif)
 
+##### BottomBar 2.0 : [【BottomBar】Android炫酷的底部切换效果V2.0](http://www.jianshu.com/p/2bafd1bbb21b)
+
+![shy](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/shy-demo.gif)
+![shifting](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/shifting-demo.gif)
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a

@@ -6,7 +6,7 @@
 
 ![shifting](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/shifting-demo.gif)
 
-![screenshot](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/screenshot_tablet.gif)
+![screenshot](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/screenshot_tablet.png)
 
 
 
