@@ -9,8 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * 第1组: moveTo、 setLastPoint、 lineTo 和 close
- * <p/>
+ * http://www.gcssloop.com/customview/Path_Basic
  * Wing_Li
  * 2016/11/23.
  */

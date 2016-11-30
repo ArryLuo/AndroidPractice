@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ * http://www.gcssloop.com/customview/Path_Over
  * Wing_Li
  * 2016/11/25.
  */
@@ -47,17 +48,17 @@ public class FigureView extends View {
 
         canvas.translate(wiedth / 2, height / 2);
 
-//        Android与填充模式相关的方法 , 这些都是Path中的方法。
-//        setFillType	设置填充规则
-//        getFillType	获取当前填充规则
-//        isInverseFillType	判断是否是反向(INVERSE)规则
-//        toggleInverseFillType	切换填充规则(即原有规则与反向规则之间相互切换)
+        // Android与填充模式相关的方法 , 这些都是Path中的方法。
+        // setFillType	设置填充规则
+        // getFillType	获取当前填充规则
+        // isInverseFillType	判断是否是反向(INVERSE)规则
+        // toggleInverseFillType	切换填充规则(即原有规则与反向规则之间相互切换)
 
-//        Android中的填充模式有四种，是封装在Path中的一个枚举。
-//        EVEN_ODD	奇偶规则
-//        INVERSE_EVEN_ODD	反奇偶规则
-//        WINDING	非零环绕数规则
-//        INVERSE_WINDING	反非零环绕数规则
+        // Android中的填充模式有四种，是封装在Path中的一个枚举。
+        // EVEN_ODD	奇偶规则
+        // INVERSE_EVEN_ODD	反奇偶规则
+        // WINDING	非零环绕数规则
+        // INVERSE_WINDING	反非零环绕数规则
 
 
         Path path = new Path();
@@ -70,9 +71,9 @@ public class FigureView extends View {
 
 
         path.setFillType(Path.FillType.EVEN_ODD);                      // 奇偶规则
-//        path.setFillType(Path.FillType.INVERSE_EVEN_ODD);              // 反奇偶规则
-//        path.setFillType(Path.FillType.WINDING);                       // 非零环绕数规则
-//        path.setFillType(Path.FillType.INVERSE_WINDING);               // 反非零环绕数规则
+        // path.setFillType(Path.FillType.INVERSE_EVEN_ODD);              // 反奇偶规则
+        // path.setFillType(Path.FillType.WINDING);                       // 非零环绕数规则
+        // path.setFillType(Path.FillType.INVERSE_WINDING);               // 反非零环绕数规则
 
         canvas.drawPath(path, mPaint);
     }
