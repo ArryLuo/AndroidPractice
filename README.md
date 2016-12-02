@@ -61,10 +61,19 @@ Path之贝塞尔曲线:http://www.gcssloop.com/customview/Path_Bezier
 
 ![ViewPath](https://github.com/Wing-Li/PracticeDemos/blob/master/ViewPath/img/ViewPath.gif)
 
-##### BottomBar 2.0 : [【BottomBar】Android炫酷的底部切换效果V2.0](http://www.jianshu.com/p/2bafd1bbb21b)
+##### 15. BottomBar 2.0 : [【BottomBar】Android炫酷的底部切换效果V2.0](http://www.jianshu.com/p/2bafd1bbb21b)
 
 ![shy](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/shy-demo.gif)
 ![shifting](https://github.com/Wing-Li/PracticeDemos/blob/master/BottomBar2.0/img/shifting-demo.gif)
+
+##### 16. PathMeasure :[自定义View之PathMeasure][PathMeasure]
+
+![PathMeasure](https://github.com/Wing-Li/PracticeDemos/blob/master/PathMeasure/img/PathMeasure.gif)
+
+##### 17. MakeTable ：Android 制作类似于 Excel 的表格
+
+![MakeTable](https://github.com/Wing-Li/PracticeDemos/blob/master/MakeTable/img/table.png)
+
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
@@ -74,3 +83,4 @@ Path之贝塞尔曲线:http://www.gcssloop.com/customview/Path_Bezier
 [Drawing]:http://www.gcssloop.com/customview/Canvas_BasicGraphics
 [ViewCanvas]:http://www.gcssloop.com/customview/Canvas_Convert
 [ViewImageText]:http://www.gcssloop.com/customview/Canvas_PictureText
+[PathMeasure]:http://www.gcssloop.com/customview/Path_PathMeasure
