@@ -39,6 +39,7 @@ public class MainActivity extends Activity {
         mDataHorizontal = (SyncHorizontalScrollView) findViewById(R.id.data_horizontal);
         mHeaderHorizontal = (SyncHorizontalScrollView) findViewById(R.id.header_horizontal);
 
+        // Header 随着 Data 一起滑动
         mDataHorizontal.setScrollView(mHeaderHorizontal);
         mHeaderHorizontal.setScrollView(mDataHorizontal);
 
