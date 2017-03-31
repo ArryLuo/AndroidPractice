@@ -74,6 +74,10 @@ Path之贝塞尔曲线:http://www.gcssloop.com/customview/Path_Bezier
 
 ![MakeTable](https://github.com/Wing-Li/PracticeDemos/blob/master/MakeTable/img/table.png)
 
+##### 18. DownloadManager ：调用系统提供的 DownloadManager 类来下载文件
+
+![DownloadManager](https://github.com/Wing-Li/PracticeDemos/blob/master/DownloadManager/img/download.gif)
+
 
 [Hack3_ViewGroup]:http://www.jianshu.com/p/d099d48cf843
 [Hack7_CanvasAnime]:http://www.jianshu.com/p/4915e1a8734a
