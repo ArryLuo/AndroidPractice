@@ -7,7 +7,7 @@
 
 实现效果如下：
 
-![](https://github.com/Wing-Li/DownloadManager/blob/master/ThemeChange/img/download.gif)
+![](https://github.com/Wing-Li/PracticeDemos/blob/master/DownloadManager/img/download.gif)
 
 
 
